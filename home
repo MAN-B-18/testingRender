@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home - BICT Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+    <h1>Welcome to BICT Demo</h1>
+    <p>This website is deployed using Git, GitHub and Render</p>
+
+    <button onclick="showMessage()">Click Me</button>
+    <p id="message"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
